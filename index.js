@@ -8,7 +8,7 @@ try {
 
     function createHomeProduct(product) {
       let electronics = product.filter((item) => item.type == "electronics");
-
+      // parent div for products from HTML file
       let productsDiv = document.querySelector("[data-products]");
 
       // You also can change forEach to map or any cycle operators
