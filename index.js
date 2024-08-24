@@ -2,7 +2,7 @@ try {
   // Async function for Electronic Products
   async function ElectronicsGeneralProduct() {
     // You can change this url to another API domain,
-    await fetch("https://66b47c1f9f9169621ea321ce.mockapi.io/products")
+    await fetch("your API domain goes here")
       .then((res) => res.json())
       .then((data) => createHomeProduct(data));
 
